@@ -1,19 +1,128 @@
-html {
-    font-size: 22px;
-}
 
 body {
-    min-height: 100vh;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 1rem;
-    border-left: 1px solid #333;
-    border-right: 1px solid #333;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-th, td, caption {
-    border: 1px solid #333;
-    font-family: 'Courier New', Courier, monospace;
-    border-collapse: separate;
-    padding: 0.5rem;
+header, nav, main, footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
 }
+
+h1, h2, h3 {
+    color: #ff6f61;
+}
+
+a {
+    color: #ff6f61;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+
+main {
+    padding: 2rem 0;
+}
+
+main img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+main figcaption {
+    text-align: center;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+article {
+    background: white;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+table caption {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 0.75rem;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tfoot td {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+
+a[href="#"] {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
